@@ -1,0 +1,15 @@
+while True:
+    num = int(input(f"Введіть трицифрове число: "))
+    if 100 <= num <= 999:
+        break
+    print("Число повинно бути трицифровим. Спробуйте ще раз!")
+
+print(f"Ваше число {num}")
+
+first_digit = num // 100
+second_digit = num % 10
+
+if first_digit == second_digit:
+    print("Це палідром")
+else:
+    print("Це не палідром")
