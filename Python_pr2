@@ -1,5 +1,7 @@
 while True:
-    num = int(input(f"Введіть трицифрове число: "))
+
+    num = int(input(f"Hello man, I'm Vlad"))
+
     if 100 <= num <= 999:
         break
     print("Число повинно бути трицифровим. Спробуйте ще раз!")
