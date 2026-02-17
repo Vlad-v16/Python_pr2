@@ -1,7 +1,5 @@
 while True:
-
-    num = int(input(f"Hello man, I'm Vlad"))
-
+    num = int(input(f"Введіть трицифрове число: I'm so bad guy"))
     if 100 <= num <= 999:
         break
     print("Число повинно бути трицифровим. Спробуйте ще раз!")
@@ -13,5 +11,9 @@ second_digit = num % 10
 
 if first_digit == second_digit:
     print("Це палідром")
-else:
+elser
     print("Це не палідром")
+
+
+
+
